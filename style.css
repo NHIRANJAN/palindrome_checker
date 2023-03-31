@@ -11,9 +11,10 @@ h3{
     text-align: center;
 }
 .main{
-    display: flex;
-    margin-top: 140px;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20.5vh;
 }
 .main1{
     border: 2px solid;
@@ -55,4 +56,18 @@ p{
 }
 #mk{
    margin: auto;
+}
+@media  only screen and (max-width:449px) {
+    .main1{
+        width:80vw;
+    }
+    textarea{
+        width: 70vw;
+        margin: auto;
+        margin-left: 5vw;
+    }
+    button{
+        margin: auto;
+        margin-left: 28vw;
+    }
 }
