@@ -23,7 +23,7 @@ h3{
 }
 .main1{
     border: 2px solid;
-    
+    width:100%
     max-width: 450px;
     max-height: 450px;
     border-radius: 5px ;
