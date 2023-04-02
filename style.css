@@ -23,9 +23,8 @@ h3{
 }
 .main1{
     border: 2px solid;
-    width:100%
-    max-width: 450px;
-    max-height: 450px;
+    /* max-width: 450px;
+    max-height: 480px; */
     border-radius: 5px ;
     padding: 1em;
    background-color: rgb(46, 45, 46);

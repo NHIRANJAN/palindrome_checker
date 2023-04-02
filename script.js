@@ -2,7 +2,7 @@
     ques.addEventListener('click',palindrome)
     function palindrome(){
     let val=document.getElementById("text").value
-    let val1=val.trim().split(" ").join("")
+    let val1=val.trim().split(" ").join("");
     console.log(val1)
     let length=val1.length
     let val2=""
